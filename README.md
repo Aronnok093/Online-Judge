@@ -1,1 +1,1 @@
-# Online-Judge-Light-oJ
+# Online-Judge-Light-oJ problem solution for beginners 
