@@ -1,38 +1,24 @@
 #include<stdio.h>
-int main()
-{
-    int t;
-    scanf("%d",&t);
-    while(t--)
-    {int n,p,arr[100],i,y;
-        scanf("%d",&n);
-        p=1;
-        for(i=0;i<n;i++)
-        {
-            arr[i]=p++;
-        }
-        if(n%2==0)
-        {for(i=0;i<n-1;i=i+2)
-            {
-            printf("%d ",arr[i+1]);
-        printf("%d ",arr[i]);}
-        if(n%2!=0)
-        printf("%d ",arr[i]);
-            printf("\n");
-    }
-    else
-    {
-        y=arr[0];
-        arr[0]=arr[n-1];
-        arr[n-1]=y;
-        for(i=0;i<n-1;i=i+2)
-            {
-            printf("%d ",arr[i+1]);
-        printf("%d ",arr[i]);}
-        if(n%2!=0)
-        printf("%d ",arr[i]);
-            printf("\n");
-    }}
+int main(){
 
-    return 0;
+    int array[100],term,i,j,num;
+    scanf("%d",&term);
+    for(i=0;i<term;i++){
+        scanf("%d",&num);
+            for(j=1;j<num;j++){
+                array[j]=j+1;
+
+
+    }
+    array[0]=j;
+    array[j]=1;
+
+    for(j=1;j<=num;j++){
+        printf("%d ",array[j]);
+    }
+    printf("\n");
+    }
+
+
+
 }
