@@ -20,4 +20,5 @@
             result=floor(rs/log(base))+1;
             printf("Case %d: %.0lf\n",t,result);
         }
-        return
+        return 0;
+        }
