@@ -1,18 +1,26 @@
-#include <stdio.h>
+#include<stdio.h>
+int main(){
 
-int main() {
-    int a, b, c, d;
-    while(scanf("%d %d", &a, &b) == 2) {
-        scanf("%d %d", &c, &d);
-        if(a+b+c+d == 0)    break;
-        int time = a*60+b, cnt = 0;
-        for(;; time++) {
-            a = time/60, b = time%60;
-            if(a == 24 && b == 0)   time = 0, a = 0;
-            if(a == c && b == d)    break;
-            cnt++;
+    int h1,m1,h2,m2,sum,time,hour,minuits,count;
+    while(scanf("%d%d%d%d",&h1,&m1,&h2,&m2)!=EOF){
+        sum=h1+m1+h2+m2;
+        if(sum==0)
+            break;
+        time=h1*60+m1;
+        count=0;
+        while(1){
+            time++;
+            count++;
+            hour=time/60; minuits=time%60;
+            if(hour==24&&minuits==0)
+                {
+                    time=0;
+                }
+            if(hour==h2&&minuits==m2)
+                break;
         }
-        printf("%d\n", cnt);
+        printf("%d\n",count);
+
     }
-    return 0;
+
 }
