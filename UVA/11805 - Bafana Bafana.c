@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main()
+    
 {
     int T,N,K,i,P,D;
     scanf("%d",&T);
