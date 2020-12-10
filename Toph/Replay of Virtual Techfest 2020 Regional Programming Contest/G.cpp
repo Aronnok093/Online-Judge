@@ -12,7 +12,7 @@ int main()
         double area,r,x,ang,tri;
         cin>>r>>x;
         ang=(pi*x)/360;
-        tri=r*r*tan(ang); // regular polygons area  
+        tri=r*r*tan(ang); // regular polygons area  https://ektalks.blogspot.com/2018/09/perimeter-and-area-of-regular-polygons.html
         area=(pi*r*r*x)/360; 
         cout<<(tri-area)<<endl;
     }
