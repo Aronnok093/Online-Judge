@@ -12,8 +12,8 @@ int main()
         double area,r,x,ang,tri;
         cin>>r>>x;
         ang=(pi*x)/360;
-        tri=r*r*tan(ang);
-        area=(pi*r*r*x)/360;
+        tri=r*r*tan(ang); // regular polygons area  
+        area=(pi*r*r*x)/360; 
         cout<<(tri-area)<<endl;
     }
     return 0;
