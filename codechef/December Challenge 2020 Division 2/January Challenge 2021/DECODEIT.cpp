@@ -7,10 +7,8 @@ int main(){
     cin>>t;
     while(t--){
         string s,s1,ans;
-        //vector<char>ans;
         int ln;
         cin>>ln;
-       // int sz=ln/4;
         cin>>s;
         for(int i=0;i<ln;i+=4){
             s1=s.substr(i,4);
