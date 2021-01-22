@@ -6,8 +6,8 @@ int main(){
     fs()
     long long  n;
     cin>>n;
-    cout<<n<<" "<<endl;
-    while(n!=1){
+    cout<<n<<" "<<endl;              
+    while(n!=1){                          //complexity O(n) 0.01s 
         if(n%2==0){
             n/=2;
             cout<<n<<" ";
