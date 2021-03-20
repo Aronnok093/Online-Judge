@@ -5,7 +5,7 @@ int main(){
 
     int a,b;
     cin>>a>>b;
-    cout<<a*b<<endl; // print
+    cout<<a*b<<endl;  //  print
     return 0;
 
 }
