@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #define ll long long int
 using namespace std;
-
+// maybe need to use fastest expo
 ll sum(ll x, ll n)
 {
     ll i, total = 0, multi = x;
